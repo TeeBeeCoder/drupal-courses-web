@@ -1,0 +1,5 @@
+name: module-TP1
+type: module
+description: Module pour le TP1
+package: Custom
+core_version_requirement: ^9 || ^10

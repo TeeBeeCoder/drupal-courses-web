@@ -1,0 +1,9 @@
+module_tp1.hello-world:
+  path: '/hello-world/{name}'
+  defaults:
+    _title: 'Hello World'
+    _controller: '\Drupal\module_tp1\Controller\ModuleTp1Controller::build'
+  requirements:
+    _permission: 'access content'
+    name: '[a-zA-Z]+'
+
